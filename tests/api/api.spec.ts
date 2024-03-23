@@ -266,10 +266,10 @@ test.describe.parallel('KYG Client Integration API', ()=> {
     expect(responseBody.queueDateTime).not.toBe(null);
     });
 
-    test.only('GET Request - Get Outbound Queue record(s)', async ({ request }) => {
+    test('GET Request - Get Outbound Queue record(s)', async ({ request }) => {
         const queueId = 100;
         const status = 1;
-        const response = await request.get(`${baseUrl}/product/outbound?queueId=100&status=1`, {
+        const response = await request.get(`${baseUrl}/product/outbound?queueId=${queueId}&status=${status}`, {
         headers: {
             'Accept': 'application/json',
             'Authorization': `Bearer ${accessToken}`
@@ -279,13 +279,13 @@ test.describe.parallel('KYG Client Integration API', ()=> {
     const responseBody = JSON.parse(await response.text());
     expect(response.status()).toBe(200);
     expect(responseBody.length).toBe(1);
-    expect(responseBody.items.transactionId).toBe(100);
-    expect(responseBody.items.kygId).toBe(14953);
-    expect(responseBody.items.katId).toBe(6590);
-    expect(responseBody.items.responseMsg).toBe("getaddrinfo ENOTFOUND plmhubdev.connect.te.com");
-    expect(responseBody.items.status).toBe(-1);
-    expect(responseBody.items.transactionDateTime).not.toBe(null);
-    expect(responseBody.items.queueDateTime).not.toBe(null);
+    expect(responseBody.items[0].transactionId).toBe(100);
+    expect(responseBody.items[0].kygId).toBe(14953);
+    expect(responseBody.items[0].katId).toBe(6590);
+    expect(responseBody.items[0].responseMsg).toBe("getaddrinfo ENOTFOUND plmhubdev.connect.te.com");
+    expect(responseBody.items[0].status).toBe(-1);
+    expect(responseBody.items[0].transactionDateTime).not.toBe(null);
+    expect(responseBody.items[0].queueDateTime).not.toBe(null);
     });
 
 })
