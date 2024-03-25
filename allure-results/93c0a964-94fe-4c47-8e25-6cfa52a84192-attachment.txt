@@ -1,0 +1,27 @@
+{
+  kygId: 49260,
+  katId: 39345,
+  responseMessage: 'Item was created',
+  errorMsg: [],
+  attributes: {
+    itemType: 'tcpn',
+    itemUniqueIdentifier: '1235-11A1B12655123AB86116735557',
+    itemRevision: 'A',
+    itemSubtype: 'BEZEL - Bezel',
+    brandOwner: 'Mike',
+    itemName: 'Fantastic Rubber Chips',
+    itemDescription: 'Fantastic Rubber Chips',
+    kygId: '',
+    katId: '',
+    businessUnit: 'CRP - Corporate',
+    rdo: '0006',
+    assessmentType: 'Initial Classification',
+    assessmentReason: 'New Item',
+    assessmentCategory: 'ECN',
+    assessmentExportCountry: 'US',
+    assessmentImportCountry: 'US',
+    createdDate: '2024-03-25T04:03:20.488Z',
+    modifiedDate: '2024-03-25T04:03:23.096Z',
+    assessmentExpirationDate: '2099-12-31'
+  }
+}

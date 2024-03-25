@@ -1,0 +1,27 @@
+{
+  kygId: 49257,
+  katId: 39343,
+  responseMessage: 'Item was created',
+  errorMsg: [],
+  attributes: {
+    itemType: 'project',
+    itemUniqueIdentifier: '1235-11A1B12655123AB145224948185',
+    itemRevision: 'A',
+    itemSubtype: 'BEZEL - Bezel',
+    brandOwner: 'Mike',
+    itemName: 'Handcrafted Frozen Car',
+    itemDescription: 'Handcrafted Frozen Car',
+    kygId: '',
+    katId: '',
+    businessUnit: 'CRP - Corporate',
+    rdo: '0006',
+    assessmentType: 'Initial Classification',
+    assessmentReason: 'New Item',
+    assessmentCategory: 'HS',
+    assessmentExportCountry: 'US',
+    assessmentImportCountry: 'US',
+    createdDate: '2024-03-25T02:46:21.853Z',
+    modifiedDate: '2024-03-25T02:46:23.784Z',
+    assessmentExpirationDate: '2099-12-31'
+  }
+}

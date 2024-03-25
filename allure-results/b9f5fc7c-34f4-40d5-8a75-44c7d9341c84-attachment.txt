@@ -1,0 +1,21 @@
+{
+  kygId: 49258,
+  katId: '',
+  responseMessage: 'Item was created',
+  errorMsg: [],
+  attributes: {
+    itemType: 'tcpn',
+    itemUniqueIdentifier: '1235-11A1B12655123AB822494361587',
+    itemRevision: 'A',
+    itemSubtype: 'BEZEL - Bezel',
+    brandOwner: 'Mike',
+    itemName: 'MOTOR, ELECTRIC, 30 HP, 1800 RPM, 230/460V, 180L FRAME, 60HZ, 3PH, FOR SSR UP6 30, INGERSOL RAND',
+    itemDescription: 'MOTOR, ELECTRIC, 30 HP, 1800 RPM, 230/460V, 180L FRAME, 60HZ, 3PH, FOR SSR UP6 30, INGERSOL RAND',
+    kygId: '',
+    katId: '',
+    businessUnit: 'CRP - Corporate',
+    rdo: '0006',
+    createdDate: '2024-03-25T04:03:19.899Z',
+    modifiedDate: '2024-03-25T04:03:19.819Z'
+  }
+}

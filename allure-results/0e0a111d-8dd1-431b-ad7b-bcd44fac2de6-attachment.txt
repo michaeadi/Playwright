@@ -1,0 +1,27 @@
+{
+  kygId: 49248,
+  katId: 39337,
+  responseMessage: 'Item was created',
+  errorMsg: [],
+  attributes: {
+    itemType: 'project',
+    itemUniqueIdentifier: '1235-11A1B12655123AB812347269133',
+    itemRevision: 'A',
+    itemSubtype: 'BEZEL - Bezel',
+    brandOwner: 'Mike',
+    itemName: 'V-BELT, WRAPPED, TYPE B, 106 IN NOMINAL OUTSIDE LENGTH, 21/32 IN TOP WIDTH, 7/16 IN THICKNESS',
+    itemDescription: 'V-BELT, WRAPPED, TYPE B, 106 IN NOMINAL OUTSIDE LENGTH, 21/32 IN TOP WIDTH, 7/16 IN THICKNESS',
+    kygId: '',
+    katId: '',
+    businessUnit: 'CRP - Corporate',
+    rdo: '0006',
+    assessmentType: 'Initial Classification',
+    assessmentReason: 'New Item',
+    assessmentCategory: 'ECN',
+    assessmentExportCountry: 'US',
+    assessmentImportCountry: 'US',
+    createdDate: '2024-03-24T17:02:48.244Z',
+    modifiedDate: '2024-03-24T17:02:51.028Z',
+    assessmentExpirationDate: '2099-12-31'
+  }
+}

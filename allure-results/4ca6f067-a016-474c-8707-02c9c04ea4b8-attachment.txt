@@ -1,0 +1,27 @@
+{
+  kygId: 49259,
+  katId: 39344,
+  responseMessage: 'Item was created',
+  errorMsg: [],
+  attributes: {
+    itemType: 'project',
+    itemUniqueIdentifier: '1235-11A1B12655123AB49361578856',
+    itemRevision: 'A',
+    itemSubtype: 'BEZEL - Bezel',
+    brandOwner: 'Mike',
+    itemName: 'PROBE, THERMISTOR FOR AIR COMPRESSOR, GARDNER DENVER',
+    itemDescription: 'PROBE, THERMISTOR FOR AIR COMPRESSOR, GARDNER DENVER',
+    kygId: '',
+    katId: '',
+    businessUnit: 'CRP - Corporate',
+    rdo: '0006',
+    assessmentType: 'Initial Classification',
+    assessmentReason: 'New Item',
+    assessmentCategory: 'HS',
+    assessmentExportCountry: 'US',
+    assessmentImportCountry: 'US',
+    createdDate: '2024-03-25T04:03:20.232Z',
+    modifiedDate: '2024-03-25T04:03:22.023Z',
+    assessmentExpirationDate: '2099-12-31'
+  }
+}
