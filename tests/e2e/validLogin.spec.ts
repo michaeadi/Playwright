@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import LoginPage from "../../pages/loginPage";
 const baseUrl = 'https://www.preprod.kyg.ai';
-test('Verify User is able to create Product', async ({ page }) => {
+test('Verify User is able to Login Successfully', async ({ page }) => {
   await page.goto(`${baseUrl}/login`);
   await page.goto(`${baseUrl}/login?lang=en`);
 
